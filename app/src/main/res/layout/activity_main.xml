@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#23bacf"
+    tools:context=".View.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|bottom"
+    android:background="#23bacf">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logolearnpro"
+        android:layout_marginBottom="-35dp"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="Learning Of Programming"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#007ACC"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dadada"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elie"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-75dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAjouter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Ajouter"
+            android:background="#fff"
+            android:textColor="#007ACC"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btnVoir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="Voir Membres"
+            android:background="#fff"
+            android:textColor="#007ACC"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</LinearLayout>
